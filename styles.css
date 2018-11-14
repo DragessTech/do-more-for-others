@@ -1,15 +1,28 @@
 
-<style>
+
 * {
     box-sizing: border-box;
     font-family: Trebuchet, Helvetica, sans-serif;
+    text-align: center;
 }
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Trebuchet, Helvetica, sans-serif;
+  background-image: url("images/gym.jpg");
+  background-color: blue;
 }
 
+.content{
+  border: 2px solid black;
+  margin: 30px;
+  background-image: url("images/paper.jpg");
+  background-color: grey;
+}
+
+#first, #second, #third, #fourth, #fifth{
+
+}
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
@@ -36,7 +49,6 @@ body {
 .content {
     background-color: #ddd;
     padding: 10px;
-    height: 200px; /* Should be removed. Only for demonstration */
 }
 
 /* Style the footer */
@@ -44,24 +56,7 @@ body {
     background-color: #f1f1f1;
     padding: 10px;
 }
-</style>
-</head>
-<body>
 
-<div class="topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-</div>
-
-<div class="content">
-  <h2>CSS Template</h2>
-  <p>A topnav, content and a footer.</p>
-</div>
-
-<div class="footer">
-  <p>Footer</p>
-</div>
-
-</body>
-</html>
+.footer a:hover{
+  color: black;
+}
